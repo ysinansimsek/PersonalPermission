@@ -137,16 +137,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DbModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DbModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DbModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\DbModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DbModel.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Models\TblPermission.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
